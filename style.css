@@ -118,3 +118,33 @@ h3{
     grid-area: zero;
 }
 
+@media screen and (max-width: 570px) {
+    .container{
+        margin-left: 30px;
+    }
+
+    input{
+        margin-left: 10px;
+    }
+
+    #historico-list li{
+        margin-left: 10px;
+    }
+
+    .botoes{
+        margin-right: 8px;
+    }
+    .historico{
+        width: 120px;
+        margin-right: 30px;
+    }
+}
+
+@media screen and (min-width: 300px) {
+    .container{
+        margin-left: 60px;
+    }
+    .historico{
+        margin-right: 75px;
+    }
+}
