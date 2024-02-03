@@ -70,7 +70,7 @@ h3{
     list-style: none;
     letter-spacing: 1.5px;
     color: white;
-
+    word-wrap: break-word;
 }
 
 #limpar-historico {
